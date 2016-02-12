@@ -67,7 +67,7 @@ function fznDatePicker ($log, $document, $filter) {
     };
 
     var template = '<div class="fzn-date-picker"> ' +
-        '<div ng-click="displayPicker()" class="date-display">' +
+        '<div ng-click="displayPicker()" class="date-display" tabIndex="-1">' +
         '<label for={{pickerid}} class="date-input-label"></label>' +
         '<input readonly id={{pickerid}} class="date-input" placeholder="{{placeholder}}" value="{{modelviewvalue}}">' +
         '<span class="date-input-icon"></span>' +
