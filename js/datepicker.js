@@ -49,18 +49,18 @@ function fznDatePicker ($log, $document, $filter) {
     var partials = {
         headTemplate : '<thead>'+
         '<tr>'+
-        '<th class="prev"><i class="material-icons">chevron_left</i></th>'+
+        '<th class="prev"><i class="fa fa-chevron-left"></i></th>'+
         '<th colspan="5" class="date-switch"></th>'+
-        '<th class="next"><i class="material-icons">chevron_right</i></th>'+
+        '<th class="next"><i class="fa fa-chevron-right"></i></th>'+
         '</tr>'+
         '</thead>',
         contTemplate: '<tbody><tr><td colspan="7"></td></tr></tbody>',
         footTemplate: '<tfoot ng-show="todayButton"><tr><th colspan="7" class="today">{{todayButton}}</th></tr></tfoot>',
         headTemplateDays: '<thead>'+
         '<tr>'+
-        '<th class="prev"><i class="material-icons">chevron_left</i></th>'+
+        '<th class="prev"><i class="fa fa-chevron-left"></i></th>'+
         '<th colspan="5" class="date-switch"></th>'+
-        '<th class="next"><i class="material-icons">chevron_right</i></th>'+
+        '<th class="next"><i class="fa fa-chevron-right"></i></th>'+
         '</tr>'+
         '</thead>',
         footTemplateDays: '<tfoot class="picker {{todayClass}}" ng-show="todayButton"><tr><th colspan="7" class="today">{{todayButton}}</th></tr></tfoot>'
